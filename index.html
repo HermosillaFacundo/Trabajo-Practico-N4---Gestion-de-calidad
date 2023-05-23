@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Practico</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Encriptador y Desencriptador</h1>
+    <form>
+      <div class="form-group">
+        <label for="digito">Digito a encriptar</label>
+        <input type="number" id="digito" name="digito" placeholder="Ingrese su digito">
+      </div>
+      <button type="submit" onclick="encriptar()">Encriptar</button>
+    </form>
+
+    <form>
+      <div class="form-group">
+        <label for="digito2">Digito a desencriptar</label>
+        <input type="number" id="digito2" name="digito2" placeholder="Ingrese su digito encriptado">
+      </div>
+      <button type="submit" onclick="desencriptar()">Desencriptar</button>
+    </form>
+
+    <div id="resultado"></div>
+
+    <script src="script.js"></script>
+
+    <footer>
+        <p>Alumno: Hermosilla Facundo</p>
+        <p>Curso: 6to 3ra</p>
+    </footer>
+</body>
+</html>
